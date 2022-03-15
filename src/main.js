@@ -20,7 +20,7 @@ Vue.use(VueRouter)
 Vue.config.productionTip = false
 
 // http://192.168.0.158:5000/
-Vue.prototype.$hostname = 'http://localhost:5000'
+Vue.prototype.$hostname = 'http://192.168.0.158:5000'
 
 
 import NewGame from "@/views/NewGame"
